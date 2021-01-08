@@ -1,0 +1,135 @@
+* {
+  font-family: "Merriweather", serif;
+  font-family: "Noto Serif JP", serif;
+  letter-spacing: 2px;
+}
+
+html, body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+header.jumbotron {
+  background-color: #192d2e;
+  margin-bottom: 0px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+header.jumbotron hr {
+  max-width: 280px;
+  border: 3px solid #67EB6A;
+}
+header.jumbotron .c1 {
+  padding: 200px 0px;
+  transition: 0.3s;
+}
+header.jumbotron .c1 .btn {
+  width: 130px;
+  margin-top: 25px;
+  border-radius: 20px;
+  background-color: #192d2e;
+  border: 1px solid #67EB6A;
+  color: white;
+  box-shadow: 0px 0px 15px rgba(0, 122, 255, 0.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
+header.jumbotron .c1 .btn:hover {
+  background-color: #67EB6A;
+  color: #192d2e;
+}
+
+.c2 {
+  transition: 0.3s;
+  opacity: 0;
+  transform: translate(70%, -110%);
+  padding: 200px;
+  font-size: 20px;
+}
+.c2 .btn {
+  width: 130px;
+  position: absolute;
+  margin-top: 65px;
+  border-radius: 20px;
+  background-color: #192d2e;
+  border: 1px solid #67EB6A;
+  color: white;
+  box-shadow: 0px 0px 15px rgba(0, 122, 255, 0.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.c2 .btn:hover {
+  background-color: #67EB6A;
+  color: #192d2e;
+}
+.c2 .b1 {
+  transform: translate(-110%, -50%);
+}
+.c2 .b2 {
+  transform: translate(18%, -50%);
+}
+.c2 hr {
+  margin-top: -5px;
+  border-radius: 20px;
+}
+.c2 .form-group {
+  padding: 20px;
+}
+.c2 .form-group .form-control {
+  width: 350px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  transition: 0.4s;
+  box-shadow: 0px 0px 15px rgba(0, 122, 250, 0.3);
+}
+.c2 .form-group .form-control:focus {
+  width: 500px;
+}
+
+.c3 {
+  opacity: 0;
+  transform: translate(100%, -320%);
+  transition: 0.4s;
+}
+.c3 .b3, .c3 .b4 {
+  width: 130px;
+  margin: 15px;
+  margin-top: 25px;
+  border-radius: 20px;
+  background-color: #192d2e;
+  border: 1px solid #67EB6A;
+  color: white;
+  box-shadow: 0px 0px 15px rgba(0, 122, 255, 0.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.c3 .b3:hover, .c3 .b4:hover {
+  background-color: #67EB6A;
+  color: #192d2e;
+}
+.c3 label, .c3 .col-sm-10 {
+  right: 50%;
+  left: 46%;
+}
+.c3 label input, .c3 .col-sm-10 input {
+  width: 300px;
+  transition: 0.3s;
+  box-shadow: 0px 0px 15px rgba(0, 122, 250, 0.3);
+  border-radius: 15px;
+}
+.c3 label input:focus, .c3 .col-sm-10 input:focus {
+  width: 400px;
+}
+.c3 label {
+  transform: translate(-120%);
+}
+.c3 .col-sm-10 {
+  transform: translate(-22%);
+}
